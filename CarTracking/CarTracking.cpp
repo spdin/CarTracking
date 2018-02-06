@@ -1,11 +1,4 @@
-// CarTracking.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
-
-
-//Code from pythonopencv.com
-//Vehicle detection program
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
@@ -20,7 +13,7 @@ void detect(IplImage *img);
 
 int main(int argc, char** argv)
 {
-	std::cout << "Using OpenCV " << CV_MAJOR_VERSION << "." << CV_MINOR_VERSION << "." << CV_SUBMINOR_VERSION << std::endl;
+	std::cout << "Test Using OpenCV " << CV_MAJOR_VERSION << "." << CV_MINOR_VERSION << "." << CV_SUBMINOR_VERSION << std::endl;
 
 	CvCapture *capture;
 	IplImage  *frame;
